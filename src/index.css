@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: arialRounded;
+    src: url(./../fonts/arialroundedmtbold.ttf);
+}
+
+* {
+    font-family: arialRounded;
+    color: white;
+    transition: all 0.6s ease-in-out;
+}
+
+.shadow {
+    transform: translateY(-6px);
+    box-shadow: rgb(235, 235, 235) 0px 6px 0px;
+}
