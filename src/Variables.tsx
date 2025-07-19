@@ -20,5 +20,3 @@ export const sounds = {
     pressButton: "https://pomofocus.io/audios/general/button.wav",
     alarm: "https://pomofocus.io/audios/alarms/alarm-digital.mp3",
 };
-
-export let tempTime = choices[0].time;

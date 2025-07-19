@@ -52,9 +52,9 @@ const App = () => {
                 style={{ backgroundColor: color }}
                 className="h-screen flex justify-center items-center"
             >
-                <div className="w-[480px] h-[310px] bg-white/10 text-center flex justify-center border border-none rounded-[6px]">
+                <div className="w-[480px] min-h-[310px] bg-white/10 text-center flex justify-center border border-none rounded-[6px]">
                     <div className="w-[80%] h-[100%] my-auto pt-[20px] pb-[30px] flex flex-col justify-between items-center">
-                        <nav className="w-[360px] h-[28px] flex justify-between">
+                        <nav className="w-[360px] min-h-[28px] grid grid-cols-3">
                             {choices.map((choice, index) => {
                                 return (
                                     <ChoiceButton
